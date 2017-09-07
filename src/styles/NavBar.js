@@ -22,6 +22,30 @@ export const NameComponent = styled.div`
         color: white;
         text-shadow: 2px 2px black;
     }
+    b {
+        float: left;
+        overflow: hidden;
+        position: relative;
+        height: 28px;
+    }
+    #rotate{
+        color: #840A1E;
+        display: inline-block;
+        position: relative;
+        white-space: nowrap;
+        top: 0;
+        left: 0;
+        animation: move 5s;
+        animation-iteration-count: infinite;
+        animation-delay: 1s;
+    }
+    @keyframes move {
+        0% { top: 0px }
+        20% { top: -36px }
+        40% { top: -72px; }
+        60% { top: -108px; }
+        80% { top: -144px; }
+    }
     .click {
         display: flex;
         justify-content: center;

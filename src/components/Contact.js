@@ -6,7 +6,7 @@ class Contact extends Component {
     render() {
         return (
             <Background>
-                <Arrow><a href="#portfolio"><i id="white" className="material-icons arrow">keyboard_arrow_down</i></a></Arrow>
+                <Arrow><a href="#contact"><i id="white" className="material-icons arrow">keyboard_arrow_down</i></a></Arrow>
                 <IntroComponent>
                     <div id="contact" className="know">- Let's Chat! -</div>
                 </IntroComponent>
