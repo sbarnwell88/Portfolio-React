@@ -3,9 +3,10 @@ import styled from 'styled-components';
 export const NameComponent = styled.div`
     display: flex;
     justify-content: center;
-    padding: 150px;
+    padding: 180px;
     color: white;
-    background-image: url('https://i.imgur.com/XxXSfSN.jpg?3');
+    background-image: url('https://i.imgur.com/r3qmW7N.jpg?4');
+    background-position: center center;
     .name {
         display: flex;
         justify-content: center;
@@ -29,7 +30,8 @@ export const NameComponent = styled.div`
         height: 28px;
     }
     #rotate{
-        color: #840A1E;
+        color: black;
+        text-shadow: 2px 2px white;
         display: inline-block;
         position: relative;
         white-space: nowrap;
@@ -54,9 +56,8 @@ export const NameComponent = styled.div`
     }
 `
 
-export const NavBar = styled.div`
-//   background-color: #607D8B;
-background-color: black;
+export const NavBarComponent = styled.div`
+  background-color: black;
   height: 30px;
   padding: 20px;
   display: flex;
