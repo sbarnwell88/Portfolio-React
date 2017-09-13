@@ -26,20 +26,30 @@ class Projects extends Component {
                 </IntroComponent>
                 <ProjectsComponent>
                     <div className="container">
-                        <a href="http://barnwell-hangman.bitballoon.com/">
-                            <div className="item" id="hangman"></div>
-                        </a>
-                        <a href="https://beer-cult.herokuapp.com/">
-                            <div className="item" id="beer"></div>
-                        </a>
+                            <div className="row-item"><a href="http://barnwell-hangman.bitballoon.com/">
+                                <div className="item" id="hangman"></div>
+                                </a>
+                                <div>Classic hangman game that allows users to guess a word. Users have 7 tries to guess the correct word. The drawing of the hangman appears for every incorrect guess. I used Javascript and JQuery for this game.</div>
+                            </div>
+                            <div className="row-item"><a href="https://beer-cult.herokuapp.com/">
+                                <div className="item" id="beer"></div>
+                                </a>
+                                <div>Beer Cult is app that allows users to keep track of their favorite classic and craft beers. Users can add breweries, beers, and create an account. I used Nodejs and Express to build this app.</div>
+                            </div>
                     </div>
                     <div className="container">
-                        <a href="https://adventure-planner.herokuapp.com/">
+                        <div className="row-item">
+                            <a href="https://adventure-planner.herokuapp.com/">
                             <div className="item" id="adventure">adventure planner</div>
-                        </a>
-                        <a href="https://wayfare.herokuapp.com">
+                            </a>
+                            <div>Adventure Planner is an app that allows users to save & keep track of their travel plans. This is a MERN Stack app.</div>
+                        </div>
+                        <div className="row-item">
+                            <a href="https://wayfare.herokuapp.com">
                             <div className="item" id="wayfare"></div>
-                        </a>
+                            </a>
+                            <div>Wayfare is a Ruby on Rails app that allows users to see other user's comments and recommendations when traveling. Users are also able to create, edit, and delete their own comments.</div>
+                        </div>
                     </div> 
                 </ProjectsComponent>
             </div>

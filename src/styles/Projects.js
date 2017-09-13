@@ -3,10 +3,23 @@ import styled from 'styled-components';
 export const ProjectsComponent = styled.div`
     .container {
         display: flex;
+        // flex-flow: row; 
+        // flex-wrap: wrap;
         justify-content: center;
+        flex: 0 0 100%;
+        padding-bottom: 30px;
         a {
             text-decoration: none;
         }
+    }
+    .row-item {
+        flex-grow: 1;
+	    flex-shrink: 1;
+        flex-basis: 0;
+        padding-left: 80px;
+        padding-right: 80px;
+        padding-botton: 20px;
+        font-family: 'Francois One', sans-serif;
     }
     .item {
         width: 350px;
@@ -30,7 +43,6 @@ export const ProjectsComponent = styled.div`
         background-image: url('https://i.imgur.com/00Pw3iw.jpg?1');
         background-size: 100% 100%;
         background-repeat: no-repeat;
-        // filter: blur(2px);
     }
 
     .item:hover{
