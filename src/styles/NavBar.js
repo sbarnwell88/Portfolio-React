@@ -128,6 +128,10 @@ export const Description = styled.div`
         word-spacing: 6px;
         width:60%;
         margin: auto;
+        @media screen and (max-width: 600px) {
+            // text-align: justify;
+            // text-justify: inter-word;
+        }
 `
 export const Color = styled.div`
     color: black;

@@ -68,11 +68,14 @@ export const ProjectsComponent = styled.div`
         }
         .row-item {
             padding-botton: 20px;
+            font-size: 10px;
         }
         .item {
             width: 230px;
             height: 200px;
         }
-            
+        .text {
+            padding: 10px;
+        }
     }
 `
