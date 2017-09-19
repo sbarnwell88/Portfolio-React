@@ -30,7 +30,10 @@ export const ProjectsComponent = styled.div`
         display: flex;
         justify-content: center;
         font-family: 'Francois One', sans-serif;
-        font-size: 24px;
+        a {
+            font-size: 15px;
+        }
+        
         box-shadow: 6px 6px 5px black;
         opacity: .6;
     }
