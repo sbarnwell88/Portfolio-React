@@ -61,6 +61,28 @@ export const ProjectsComponent = styled.div`
         background-size: 100% 100%;
         background-repeat: no-repeat;
     }
+
+    @media screen and (min-width: 767px) and (max-width: 1200px) {
+        .container {
+            flex-wrap: wrap;
+            display: flex;
+            text-align: center;
+        }
+        .row-item {
+            padding-botton: 20px;
+            font-size: 25px;
+            
+        }
+        .item {
+            width: 450px;
+            height: 400px;
+            margin-left: 100px;
+        }
+        .text {
+            padding: 60px;
+        }
+    }
+
     @media screen and (max-width: 600px) {
         .container {
             flex-wrap: wrap;

@@ -5,9 +5,14 @@ export const NameComponent = styled.div`
     justify-content: center;
     padding: 180px;
     color: white;
-    background-image: url('https://i.imgur.com/r3qmW7N.jpg?4');
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+    background-image: url('https://i.imgur.com/NqeA7Uq.jpg');
     background-position: center center;
-        background-attachment: fixed;       
+    background-attachment: fixed;       
     webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -25,8 +30,14 @@ export const NameComponent = styled.div`
         font-size: 25px;
     }
     .title {
-        color: white;
-        text-shadow: 2px 2px black;
+        // color: grey;
+        // text-shadow: 2px 2px black;
+        color: black;
+    text-shadow:
+    -1px -1px 0 white,
+    1px -1px 0 white,
+    -1px 1px 0 white,
+    1px 1px 0 white;
     }
 
     b {
@@ -36,8 +47,8 @@ export const NameComponent = styled.div`
         height: 28px;
     }
     #rotate{
-        color: black;
-        text-shadow: 2px 2px white;
+        // color: white;
+        // text-shadow: 2px 2px black;
         display: inline-block;
         position: relative;
         white-space: nowrap;
@@ -60,6 +71,40 @@ export const NameComponent = styled.div`
         padding: 10px;
         color: white;
     }
+    @media screen and (min-width: 767px) and (max-width: 1200px) {
+        background-position: center center;
+        background-attachment: fixed;       
+        webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        display: flex;
+        justify-content: center;  
+        font-size: 25px;
+        #name {
+            font-size: 55px;
+            text-align: center;
+        }
+        .sb {
+        font-size: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        }
+        .title {
+            font-size: 28px;
+        }
+        b {
+            height: 30px;
+        }
+        @keyframes move {
+        0% { top: 0px }
+        20% { top: -40px }
+        40% { top: -80px; }
+        60% { top: -120px; }
+        80% { top: -160px; }
+    }
+    }
+
     @media screen and (max-width: 600px)  { 
         background-attachment: fixed;       
         webkit-background-size: cover;
