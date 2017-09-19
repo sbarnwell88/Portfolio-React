@@ -7,6 +7,11 @@ export const NameComponent = styled.div`
     color: white;
     background-image: url('https://i.imgur.com/r3qmW7N.jpg?4');
     background-position: center center;
+        background-attachment: fixed;       
+    webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     .name {
         display: flex;
         justify-content: center;
@@ -23,6 +28,7 @@ export const NameComponent = styled.div`
         color: white;
         text-shadow: 2px 2px black;
     }
+
     b {
         float: left;
         overflow: hidden;
@@ -54,6 +60,38 @@ export const NameComponent = styled.div`
         padding: 10px;
         color: white;
     }
+    @media screen and (max-width: 600px)  { 
+        background-attachment: fixed;       
+        webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        font-size: 10px;
+        .sb {
+        font-size: 15px;
+        display: flex;
+        flex-wrap: wrap;
+        }
+        .title {
+            font-size: 15px;
+        }
+        #name {
+            font-size: 28px;
+        }
+        b {
+            height: 18px;
+        }
+        @keyframes move {
+        0% { top: 0px }
+        20% { top: -20px }
+        40% { top: -48px; }
+        60% { top: -65px; }
+        80% { top: -85px; }
+    }
+    }
+
 `
 
 export const NavBarComponent = styled.div`
@@ -67,6 +105,13 @@ export const NavBarComponent = styled.div`
     a {
         color: white;
         text-decoration: none;
+    }
+    @media screen and (max-width: 600px) {
+        font-size: 15px;
+        height: 20px;
+        justify-content: space-around;
+        padding-left: 70px;
+        padding-right: 70px;
     }
 `
 
