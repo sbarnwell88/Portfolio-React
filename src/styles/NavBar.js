@@ -172,6 +172,9 @@ export const Email = styled.div`
         text-decoration: none;
     }
     padding-right: 40px;
+    @media screen and (max-width: 600px) {
+        padding-right: 20px;
+    }
 `
 
 export const ContactComponent = styled.div`
@@ -179,7 +182,13 @@ export const ContactComponent = styled.div`
     justify-content: center;
     padding-top: 30px;
     padding-bottom: 50px;
+    @media screen and (max-width: 600px) {
+
+    }
 `
 export const Github = styled.div`
     padding-right: 40px;
+    @media screen and (max-width: 600px) {
+        padding-right: 20px;
+    }
 `
