@@ -33,11 +33,11 @@ export const NameComponent = styled.div`
         // color: grey;
         // text-shadow: 2px 2px black;
         color: black;
-    text-shadow:
-    -1px -1px 0 white,
-    1px -1px 0 white,
-    -1px 1px 0 white,
-    1px 1px 0 white;
+        text-shadow:
+        -1px -1px 0 white,
+        1px -1px 0 white,
+        -1px 1px 0 white,
+        1px 1px 0 white;
     }
 
     b {
@@ -155,8 +155,15 @@ export const NavBarComponent = styled.div`
         font-size: 15px;
         height: 20px;
         justify-content: space-around;
-        padding-left: 70px;
-        padding-right: 70px;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    @media screen and (min-width: 767px) and (max-width: 1200px) {
+        font-size: 20px;
+        height: 20px;
+        justify-content: space-around;
+        padding-left: 150px;
+        padding-right: 150px; 
     }
 `
 
@@ -166,6 +173,23 @@ export const IntroComponent = styled.div`
         font-family: 'Francois One', sans-serif;
         font-size: 25px;
         padding: 20px;
+`
+export const SkillsComp = styled.div`
+    background-image: url('https://i.imgur.com/NqeA7Uq.jpg');
+    background-position: center center;
+    background-attachment: fixed;       
+    webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    .languages {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+}
+    .lang {
+        padding: 40px;
+    }
 `
 
 export const Description = styled.div` 
