@@ -21,7 +21,7 @@ export const NameComponent = styled.div`
         display: flex;
         justify-content: center;
         font-family: 'Francois One', sans-serif;
-        font-size: 100px;
+        font-size: 80px;
     }
     .sb {
         display: flex;
@@ -81,8 +81,8 @@ export const NameComponent = styled.div`
         display: flex;
         justify-content: center;  
         font-size: 25px;
-        #name {
-            font-size: 55px;
+        .name {
+            font-size: 65px;
             text-align: center;
         }
         .sb {
@@ -122,8 +122,9 @@ export const NameComponent = styled.div`
         .title {
             font-size: 15px;
         }
-        #name {
-            font-size: 28px;
+        .name {
+            font-size: 50px;
+            text-align: center;
         }
         b {
             height: 18px;
