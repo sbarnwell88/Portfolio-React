@@ -83,7 +83,7 @@ export const ProjectsComponent = styled.div`
         }
     }
 
-        @media screen and (max-width: 766px), screen and (max-device-width:800px) {
+        @media screen and (max-width: 766px) {
         .container {
             flex-wrap: wrap;
             display: flex;
@@ -101,4 +101,32 @@ export const ProjectsComponent = styled.div`
         }
     }
 
+    @media only screen 
+    and (min-device-width : 375px) // or 213.4375em
+    and (max-device-width : 667px) // or 41.6875em
+    and (width : 375px) // or 23.4375em
+    and (height : 559px) // or 34.9375em
+    and (orientation : portrait) 
+    and (color : 8)
+    and (device-aspect-ratio : 375/667)
+    and (aspect-ratio : 375/559)
+    and (device-pixel-ratio : 2)
+    and (-webkit-min-device-pixel-ratio : 2)
+{ 
+            .container {
+            flex-wrap: wrap;
+            display: flex;
+        }
+        .row-item {
+            padding-botton: 20px;
+            font-size: 10px;
+        }
+        .item {
+            width: 230px;
+            height: 200px;
+        }
+        .text {
+            padding: 10px;
+        }
+}
 `
