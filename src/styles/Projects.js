@@ -1,6 +1,10 @@
 import styled from 'styled-components';
 
 export const ProjectsComponent = styled.div`
+       @viewport{
+    zoom: 1.0;
+    width: extend-to-zoom;
+}
     .languages {
         display: flex;
         flex-wrap: wrap;
