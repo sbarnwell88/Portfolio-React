@@ -21,7 +21,7 @@ export const NameComponent = styled.div`
         display: flex;
         justify-content: center;
         font-family: 'Francois One', sans-serif;
-        font-size: 60px;
+        font-size: 100px;
     }
     .sb {
         display: flex;
@@ -155,13 +155,13 @@ export const NavBarComponent = styled.div`
         font-size: 15px;
         height: 20px;
         justify-content: space-between;
-        padding-left: 60px;
-        padding-right: 60px;
+        // padding-left: 60px;
+        // padding-right: 60px;
     }
     @media screen and (min-width: 767px) and (max-width: 1200px) {
         font-size: 18px;
         height: 20px;
-        justify-content: space-around; 
+        justify-content: space-between; 
     }
 `
 
