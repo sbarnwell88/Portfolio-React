@@ -4,8 +4,8 @@ export const ProjectsComponent = styled.div`
     .container {
         display: flex;
         // flex-flow: row; 
-        flex-wrap: wrap;
-        // justify-content: center;
+        // flex-wrap: wrap;
+        justify-content: center;
         flex: 0 0 100%;
         padding-bottom: 30px;
         a {
@@ -61,8 +61,7 @@ export const ProjectsComponent = styled.div`
         background-size: 100% 100%;
         background-repeat: no-repeat;
     }
-
-    @media screen and (max-width: 766px) {
+        @media screen and (max-width: 766px) {
         .container {
             flex-wrap: wrap;
             display: flex;
@@ -80,7 +79,7 @@ export const ProjectsComponent = styled.div`
         }
     }
 
-    @media screen and (min-width: 767px) and (max-width: 1300px) {
+    @media screen and (min-width: 767px) and (max-width: 1200px) {
         .container {
             flex-wrap: wrap;
             display: flex;
