@@ -131,8 +131,8 @@ export const NameComponent = styled.div`
         @keyframes move {
         0% { top: 0px }
         20% { top: -20px }
-        40% { top: -48px; }
-        60% { top: -65px; }
+        40% { top: -44px; }
+        60% { top: -67px; }
         80% { top: -85px; }
     }
     }
