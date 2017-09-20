@@ -101,8 +101,8 @@ export const ProjectsComponent = styled.div`
         }
     }
 
-@media only screen and (max-device-width: 667px) 
-    and (-webkit-device-pixel-ratio: 2)
+@media screen and (min-device-width : 414px) 
+and (max-device-height : 736px) and (max-resolution: 401dpi)
 { 
             .container {
             flex-wrap: wrap;
