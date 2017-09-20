@@ -107,7 +107,10 @@ export const NameComponent = styled.div`
 
     @media screen and (max-width: 766px)  { 
         background-image: url('https://i.imgur.com/910rxxp.jpg?1');
-        min-height:100%;
+        @viewport{
+    zoom: 1.0;
+    width: extend-to-zoom;
+}
         background-size: contain;
         background-position: center center;
         background-attachment: fixed;       
