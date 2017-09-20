@@ -83,7 +83,7 @@ export const ProjectsComponent = styled.div`
         }
     }
 
-        @media screen and (max-width: 766px), screen and (max-width:766px) {
+        @media screen and (max-width: 766px), screen and (max-device-width:800px) {
         .container {
             flex-wrap: wrap;
             display: flex;
@@ -100,27 +100,5 @@ export const ProjectsComponent = styled.div`
             padding: 10px;
         }
     }
-    @media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2) { 
-              .container {
-            flex-wrap: wrap;
-            display: flex;
-        }
-        .row-item {
-            padding-botton: 20px;
-            font-size: 10px;
-        }
-        .item {
-            width: 230px;
-            height: 200px;
-        }
-        .text {
-            padding: 10px;
-        }
-
-}
-
 
 `
