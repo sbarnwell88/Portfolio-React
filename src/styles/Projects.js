@@ -4,8 +4,8 @@ export const ProjectsComponent = styled.div`
     .container {
         display: flex;
         // flex-flow: row; 
-        // flex-wrap: wrap;
-        justify-content: center;
+        flex-wrap: wrap;
+        // justify-content: center;
         flex: 0 0 100%;
         padding-bottom: 30px;
         a {
