@@ -110,7 +110,7 @@ export const NameComponent = styled.div`
         webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
-        background-size: cover;
+        background-size: 200vw 110vh;
         display: flex;
         justify-content: center;
         font-size: 10px;
