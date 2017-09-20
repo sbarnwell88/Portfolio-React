@@ -94,14 +94,14 @@ export const NameComponent = styled.div`
             font-size: 40px;
         }
         b {
-            height: 30px;
+            height: 40px;
         }
         @keyframes move {
         0% { top: 0px }
-        20% { top: -40px }
-        40% { top: -80px; }
-        60% { top: -120px; }
-        80% { top: -160px; }
+        20% { top: -65px }
+        40% { top: -120px; }
+        60% { top: -180px; }
+        80% { top: -240px; }
     }
     }
 
@@ -131,14 +131,14 @@ export const NameComponent = styled.div`
             text-align: center;
         }
         b {
-            height: 18px;
+            height: 20px;
         }
         @keyframes move {
         0% { top: 0px }
-        20% { top: -20px }
-        40% { top: -44px; }
-        60% { top: -67px; }
-        80% { top: -85px; }
+        20% { top: -30px }
+        40% { top: -58px; }
+        60% { top: -90px; }
+        80% { top: -115px; }
     }
     }
 
