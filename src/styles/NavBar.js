@@ -110,7 +110,7 @@ export const NameComponent = styled.div`
         webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
-        background-size: 200vw 120vh;
+        background-size: 260vw 150vh;
         display: flex;
         justify-content: center;
         .click {
@@ -193,6 +193,15 @@ export const SkillsComp = styled.div`
     .lang {
         padding: 40px;
     }
+    @media screen and (max-width: 766px)  { 
+        background-position: center center;       
+        webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: 260vw 150vh;
+        display: flex;
+        justify-content: center;
+    }
 `
 
 export const Description = styled.div` 
@@ -201,7 +210,8 @@ export const Description = styled.div`
         width:60%;
         margin: auto;
         @media screen and (max-width: 766px) {
-            font-size: 20px;
+            font-size: 18px;
+            width:80%;
             // text-justify: inter-word;
         }
 `
