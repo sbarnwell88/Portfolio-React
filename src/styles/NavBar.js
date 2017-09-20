@@ -86,12 +86,12 @@ export const NameComponent = styled.div`
             text-align: center;
         }
         .sb {
-        font-size: 30px;
+        font-size: 40px;
         display: flex;
         flex-wrap: wrap;
         }
         .title {
-            font-size: 28px;
+            font-size: 40px;
         }
         b {
             height: 30px;
@@ -120,14 +120,13 @@ export const NameComponent = styled.div`
         .sb {
         display: flex;
         flex-wrap: wrap;
-        font-size: 40px;
+        font-size: 30px;
         }
         .title {
-            font-size: 40px;
-            padding: 10px;
+            font-size: 28px;
         }
         .name {
-            font-size: 80px;
+            font-size: 50px;
             text-align: center;
         }
         b {
