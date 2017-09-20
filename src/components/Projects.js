@@ -3,7 +3,6 @@ import { Arrow, IntroComponent, Color } from '../styles/NavBar';
 import { Hover } from '../styles/Projects';
 import { ProjectsComponent } from '../styles/Projects';
 
-
 class Projects extends Component {
     constructor() {
         super()
@@ -25,7 +24,7 @@ class Projects extends Component {
                 <div id="portfolio" className="know">- My Portfolio -</div>
                 </IntroComponent>
                 <ProjectsComponent>
-                     <div className="container">
+                      <div className="container">
                             <div className="row-item"><a href="http://barnwell-hangman.bitballoon.com/">
                                 <div className="item" id="hangman"></div>
                                 </a>
@@ -50,7 +49,7 @@ class Projects extends Component {
                             </a>
                             <div className="text">Wayfare is a Ruby on Rails app that allows users to see other user's comments and recommendations when traveling. Users are also able to create, edit, and delete their own comments.</div>
                         </div>
-                    </div>  
+                    </div>   
                 </ProjectsComponent>
             </div>
         );

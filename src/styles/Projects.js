@@ -1,10 +1,19 @@
 import styled from 'styled-components';
 
 export const ProjectsComponent = styled.div`
+    .languages {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+}
+    .lang {
+        padding: 40px;
+    }
+
+
+
     .container {
         display: flex;
-        // flex-flow: row; 
-        // flex-wrap: wrap;
         justify-content: center;
         flex: 0 0 100%;
         padding-bottom: 30px;
@@ -93,31 +102,12 @@ export const ProjectsComponent = styled.div`
             font-size: 10px;
         }
         .item {
-            width: 230px;
-            height: 200px;
+            width: 50px;
+            height: 50px;
         }
         .text {
             padding: 10px;
         }
     }
 
-@media screen and (min-device-width : 414px) 
-and (max-device-height : 736px) and (max-resolution: 401dpi)
-{ 
-            .container {
-            flex-wrap: wrap;
-            display: flex;
-        }
-        .row-item {
-            padding-botton: 20px;
-            font-size: 10px;
-        }
-        .item {
-            width: 230px;
-            height: 200px;
-        }
-        .text {
-            padding: 10px;
-        }
-}
 `

@@ -144,7 +144,7 @@ export const NameComponent = styled.div`
 
 export const NavBarComponent = styled.div`
   background-color: black;
-  height: 30px;
+  height: 60px;
   padding: 20px;
   display: flex;
   justify-content: space-around;
