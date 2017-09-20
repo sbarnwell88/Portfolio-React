@@ -113,17 +113,21 @@ export const NameComponent = styled.div`
         background-size: 200vw 110vh;
         display: flex;
         justify-content: center;
-        font-size: 10px;
+        .click {
+            font-size: 20px;
+            text-align: center;
+        }
         .sb {
-        font-size: 15px;
         display: flex;
         flex-wrap: wrap;
+        font-size: 40px;
         }
         .title {
-            font-size: 15px;
+            font-size: 40px;
+            padding: 10px;
         }
         .name {
-            font-size: 50px;
+            font-size: 80px;
             text-align: center;
         }
         b {
