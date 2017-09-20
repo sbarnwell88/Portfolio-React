@@ -62,7 +62,7 @@ export const ProjectsComponent = styled.div`
         background-repeat: no-repeat;
     }
 
-    @media screen and (min-width: 767px) and (max-width: 1200px) {
+    @media screen and (min-width: 767px) and (max-width: 1300px) {
         .container {
             flex-wrap: wrap;
             display: flex;
