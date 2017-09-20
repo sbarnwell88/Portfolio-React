@@ -1,6 +1,14 @@
 import styled from 'styled-components';
 
 export const ProjectsComponent = styled.div`
+    .languages {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .lang {
+        padding: 40px;
+    }
     .container {
         display: flex;
         // flex-flow: row; 

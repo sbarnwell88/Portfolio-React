@@ -10,7 +10,10 @@ export const NameComponent = styled.div`
     1px -1px 0 #000,
     -1px 1px 0 #000,
     1px 1px 0 #000;
-    background-image: url('https://i.imgur.com/NqeA7Uq.jpg');
+    background-image: url('https://i.imgur.com/NqeA7Uq.jpg'); 
+    width: auto;
+    max-width: 100%;
+    height: auto;
     background-position: center center;
     background-attachment: fixed;       
     webkit-background-size: cover;
