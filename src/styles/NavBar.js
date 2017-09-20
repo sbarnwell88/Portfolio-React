@@ -107,7 +107,7 @@ export const NameComponent = styled.div`
 
     @media screen and (max-width: 766px)  { 
         background-image: url('https://i.imgur.com/910rxxp.jpg?1');
-        html {min-height:100%;}
+        min-height:100%;
         background-size: contain;
         background-position: center center;
         background-attachment: fixed;       
