@@ -72,15 +72,13 @@ export const NameComponent = styled.div`
         color: white;
     }
     @media screen and (min-width: 767px) and (max-width: 1200px) {
-        background-position: center center;
-        background-attachment: fixed;       
+        background-position: center center;       
         webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
-        background-size: cover;
+        background-size: 310vw 190vh;
         display: flex;
-        justify-content: center;  
-        font-size: 25px;
+        justify-content: center;
         .name {
             font-size: 65px;
             text-align: center;
@@ -110,7 +108,7 @@ export const NameComponent = styled.div`
         webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
-        background-size: 310vw 190vh;
+        background-size: 300vw 180vh;
         display: flex;
         justify-content: center;
         .click {
@@ -201,7 +199,7 @@ export const SkillsComp = styled.div`
         // background-size: 300vw 200vh;
         // display: flex;
         // justify-content: center;
-        background-color: 6B6868;
+        background-color: #6B6868;
         img {
             width: 70px;
             height: 70px;
