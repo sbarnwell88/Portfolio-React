@@ -120,10 +120,10 @@ export const NameComponent = styled.div`
         .sb {
         display: flex;
         flex-wrap: wrap;
-        font-size: 25px;
+        font-size: 20px;
         }
         .title {
-            font-size: 25px;
+            font-size: 20px;
             flex-wrap: wrap;
         }
         .name {
