@@ -76,7 +76,7 @@ export const NameComponent = styled.div`
         webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
-        background-size: 310vw 190vh;
+        background-size: 180vw 100vh;
         display: flex;
         justify-content: center;
         .name {
@@ -108,7 +108,7 @@ export const NameComponent = styled.div`
         webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
-        background-size: 300vw 180vh;
+        background-size: 290vw 160vh;
         display: flex;
         justify-content: center;
         .click {
@@ -199,7 +199,7 @@ export const SkillsComp = styled.div`
         // background-size: 300vw 200vh;
         // display: flex;
         // justify-content: center;
-        background-color: #6B6868;
+        background-color: rgb(107,104,104);
         img {
             width: 70px;
             height: 70px;
