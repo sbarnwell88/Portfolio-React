@@ -12,7 +12,7 @@ class Skills extends Component {
                 <SkillsComp>
                 <div className="languages">
                     <div className="lang"><img src="http://i.imgur.com/CVxBb6f.png" width="200" height="200" /></div>
-                    <div className="lang"><img src="http://i.imgur.com/2fbwPhk.jpg?1" width="220" height="210" /></div>
+                    <div className="lang"><img src="https://i.imgur.com/nN7j6IS.png" width="220" height="210" /></div>
                     <div className="lang"><img src="http://i.imgur.com/rQuIW9v.png" width="200" height="210" /></div>
                     <div className="lang"><img src="http://i.imgur.com/noKvP6w.png" width="200" height="200" /></div>
                     <div className="lang"><img src="http://i.imgur.com/dKfBthE.png?1" width="200" height="200" /></div>
