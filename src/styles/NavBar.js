@@ -105,7 +105,7 @@ export const NameComponent = styled.div`
     }
     }
 
-    @media screen and (max-width: 600px)  { 
+    @media screen and (max-width: 766px)  { 
         background-position: center center;
         background-attachment: fixed;       
         webkit-background-size: cover;
@@ -152,7 +152,7 @@ export const NavBarComponent = styled.div`
         color: white;
         text-decoration: none;
     }
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 766px) {
         font-size: 15px;
         height: 20px;
         justify-content: space-around;
@@ -198,7 +198,7 @@ export const Description = styled.div`
         word-spacing: 6px;
         width:60%;
         margin: auto;
-        @media screen and (max-width: 600px) {
+        @media screen and (max-width: 766px) {
             // text-align: justify;
             // text-justify: inter-word;
         }
@@ -242,7 +242,7 @@ export const Email = styled.div`
         text-decoration: none;
     }
     padding-right: 40px;
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 766px) {
         padding-right: 20px;
     }
 `
@@ -252,13 +252,13 @@ export const ContactComponent = styled.div`
     justify-content: center;
     padding-top: 30px;
     padding-bottom: 50px;
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 766px) {
 
     }
 `
 export const Github = styled.div`
     padding-right: 40px;
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 766px) {
         padding-right: 20px;
     }
 `
