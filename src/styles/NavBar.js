@@ -154,7 +154,7 @@ export const NavBarComponent = styled.div`
     @media screen and (max-width: 766px) {
         font-size: 15px;
         height: 20px;
-        justify-content: space-around;
+        justify-content: space-between;
         padding-left: 60px;
         padding-right: 60px;
     }
