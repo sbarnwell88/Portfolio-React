@@ -1,17 +1,6 @@
 import styled from 'styled-components';
 
 export const ProjectsComponent = styled.div`
-    .languages {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-}
-    .lang {
-        padding: 40px;
-    }
-
-
-
     .container {
         display: flex;
         justify-content: center;
@@ -103,6 +92,9 @@ export const ProjectsComponent = styled.div`
         .row-item {
             padding-botton: 20px;
             font-size: 10px;
+                    padding-right: 0px;
+        padding-left: 0px;
+
         }
         .item {
             width: 75vw;
