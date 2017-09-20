@@ -159,11 +159,9 @@ export const NavBarComponent = styled.div`
         padding-right: 60px;
     }
     @media screen and (min-width: 767px) and (max-width: 1200px) {
-        font-size: 20px;
+        font-size: 18px;
         height: 20px;
-        justify-content: space-around;
-        padding-left: 150px;
-        padding-right: 150px; 
+        justify-content: space-around; 
     }
 `
 
