@@ -106,12 +106,11 @@ export const NameComponent = styled.div`
     }
 
     @media screen and (max-width: 766px)  { 
-        background-position: center center; 
-        background-attachment: fixed;      
+        background-position: center center;       
         webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
-        background-size: 200vw 110vh;
+        background-size: 200vw 120vh;
         display: flex;
         justify-content: center;
         .click {
@@ -201,12 +200,9 @@ export const Description = styled.div`
         word-spacing: 6px;
         width:60%;
         margin: auto;
-        @media screen and (min-width: 767px) and (max-width: 1200px) {
-            font-size: 25px;
-        }
         @media screen and (max-width: 766px) {
             font-size: 20px;
-            text-align: justify;
+            // text-justify: inter-word;
         }
 `
 export const Color = styled.div`
