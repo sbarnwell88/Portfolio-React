@@ -25,12 +25,6 @@ class Projects extends Component {
                 <div id="portfolio" className="know">- My Portfolio -</div>
                 </IntroComponent>
                 <ProjectsComponent>
-                {/* <div className="languages">
-                    <div className="lang"><a href="http://barnwell-hangman.bitballoon.com/"><img src="https://i.imgur.com/NpYc2ge.png?2" width="300" height="250" /></a><div className="text">Classic hangman game that allows users to guess a word. Users have 7 tries to guess the correct word. The drawing of the hangman appears for every incorrect guess. I used Javascript and JQuery for this game.</div></div>
-                    <div className="lang"><img src="https://i.imgur.com/00Pw3iw.jpg?1" width="220" height="210" /></div>
-                    <div className="lang"><img src="https://i.imgur.com/oyTNDhk.jpg?1" width="200" height="210" /></div>
-                    <div className="lang"><img src="https://i.imgur.com/OyhlvhZ.jpg" width="200" height="210" /></div>
-                </div> */}
                      <div className="container">
                             <div className="row-item"><a href="http://barnwell-hangman.bitballoon.com/">
                                 <div className="item" id="hangman"></div>

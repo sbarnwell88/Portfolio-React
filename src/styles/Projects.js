@@ -1,18 +1,6 @@
 import styled from 'styled-components';
 
 export const ProjectsComponent = styled.div`
-       @viewport{
-    zoom: 1.0;
-    width: extend-to-zoom;
-}
-    .languages {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    .lang {
-        padding: 40px;
-    }
     .container {
         display: flex;
         // flex-flow: row; 
