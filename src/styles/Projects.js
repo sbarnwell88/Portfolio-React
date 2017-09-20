@@ -61,23 +61,6 @@ export const ProjectsComponent = styled.div`
         background-size: 100% 100%;
         background-repeat: no-repeat;
     }
-        @media screen and (max-width: 766px), screen and (max-width:640px) {
-        .container {
-            flex-wrap: wrap;
-            display: flex;
-        }
-        .row-item {
-            padding-botton: 20px;
-            font-size: 10px;
-        }
-        .item {
-            width: 230px;
-            height: 200px;
-        }
-        .text {
-            padding: 10px;
-        }
-    }
 
     @media screen and (min-width: 767px) and (max-width: 1200px) {
         .container {
@@ -99,5 +82,24 @@ export const ProjectsComponent = styled.div`
             padding: 60px;
         }
     }
+    
+        @media screen and (max-width: 766px), screen and (max-width:766px) {
+        .container {
+            flex-wrap: wrap;
+            display: flex;
+        }
+        .row-item {
+            padding-botton: 20px;
+            font-size: 10px;
+        }
+        .item {
+            width: 230px;
+            height: 200px;
+        }
+        .text {
+            padding: 10px;
+        }
+    }
+
 
 `
