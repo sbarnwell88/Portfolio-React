@@ -105,8 +105,8 @@ export const ProjectsComponent = styled.div`
             font-size: 10px;
         }
         .item {
-            width: 200px;
-            height: 200px;
+            width: 75vw;
+            height: 75vw;
         }
         .text {
             padding: 10px;
