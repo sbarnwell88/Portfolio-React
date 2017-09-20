@@ -94,7 +94,9 @@ export const ProjectsComponent = styled.div`
 
     @media screen and (max-width: 766px) {
         .container {
-            flex-wrap: wrap;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
             display: flex;
             text-align: center;
         }
@@ -103,8 +105,8 @@ export const ProjectsComponent = styled.div`
             font-size: 10px;
         }
         .item {
-            width: 50px;
-            height: 50px;
+            width: 200px;
+            height: 200px;
         }
         .text {
             padding: 10px;
