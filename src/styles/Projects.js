@@ -82,7 +82,7 @@ export const ProjectsComponent = styled.div`
             padding: 60px;
         }
     }
-    
+
         @media screen and (max-width: 766px), screen and (max-width:766px) {
         .container {
             flex-wrap: wrap;
@@ -100,6 +100,22 @@ export const ProjectsComponent = styled.div`
             padding: 10px;
         }
     }
-
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : portrait) { 
+        .container {
+            flex-wrap: wrap;
+            display: flex;
+        }
+        .row-item {
+            padding-botton: 20px;
+            font-size: 10px;
+        }
+        .item {
+            width: 230px;
+            height: 200px;
+        }
+        .text {
+            padding: 10px;
+        }
+}
 
 `
