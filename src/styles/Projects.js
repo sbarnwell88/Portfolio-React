@@ -92,10 +92,11 @@ export const ProjectsComponent = styled.div`
         }
     }
 
-        @media screen and (max-width: 766px) {
+    @media screen and (max-width: 766px) {
         .container {
             flex-wrap: wrap;
             display: flex;
+            text-align: center;
         }
         .row-item {
             padding-botton: 20px;
