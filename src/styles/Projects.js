@@ -79,7 +79,7 @@ export const ProjectsComponent = styled.div`
         }
         .text {
             padding: 60px;
-            padding-right: 100px;
+            padding-right: 120px;
         }
     }
 
