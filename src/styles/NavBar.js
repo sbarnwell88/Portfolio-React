@@ -74,7 +74,7 @@ export const NameComponent = styled.div`
     @media screen and (min-width: 767px) and (max-width: 1200px) {
         background-position: 50% 50%;
         background-attachment: scroll;
-        background-size: 200vw 155vh;
+        background-size: 190vw 155vh;
         display: flex;
         justify-content: center;
         .name {
