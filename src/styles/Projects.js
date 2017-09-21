@@ -75,8 +75,8 @@ export const ProjectsComponent = styled.div`
             padding-left: 0px;
         }
         .item {
-            width: 75vw;
-            height: 75vw;
+            width: 60vw;
+            height: 60vw;
         }
         .text {
             padding: 60px;
