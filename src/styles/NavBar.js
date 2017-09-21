@@ -73,10 +73,10 @@ export const NameComponent = styled.div`
     }
     @media screen and (min-width: 767px) and (max-width: 1200px) {
         background-position: center center;       
-        webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: 260vw 150vh;
+        // webkit-background-size: cover;
+        // -moz-background-size: cover;
+        // -o-background-size: cover;
+        background-size: 245vw 150vh;
         display: flex;
         justify-content: center;
         .name {
