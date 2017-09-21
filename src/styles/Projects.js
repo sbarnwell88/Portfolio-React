@@ -73,12 +73,10 @@ export const ProjectsComponent = styled.div`
             font-size: 25px;
             padding-right: 0px;
             padding-left: 0px;
-            display: flex;
-            justify-content: center;
         }
         .item {
-            width: 60vw;
-            height: 50vw;
+            width: 75vw;
+            height: 70vw;
         }
         .text {
             padding: 60px;
