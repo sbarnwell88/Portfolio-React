@@ -72,11 +72,11 @@ export const ProjectsComponent = styled.div`
             padding-botton: 20px;
             font-size: 25px;
             padding-right: 0px;
-            padding-left: 0px;
+            padding-left: 50px;
         }
         .item {
             width: 75vw;
-            height: 70vw;
+            height: 75vw;
         }
         .text {
             padding: 60px;

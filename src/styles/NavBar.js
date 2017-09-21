@@ -76,7 +76,7 @@ export const NameComponent = styled.div`
         webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
-        background-size: 135vw 120vh;
+        background-size: 260vw 150vh;
         display: flex;
         justify-content: center;
         .name {
@@ -227,6 +227,10 @@ export const Description = styled.div`
         word-spacing: 6px;
         width:60%;
         margin: auto;
+        @media screen and (min-width: 767px) and (max-width: 1200px) {
+            font-size: 25px;
+            width:80%;
+        }
         @media screen and (max-width: 766px) {
             font-size: 18px;
             width:80%;
