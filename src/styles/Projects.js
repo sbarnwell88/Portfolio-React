@@ -62,14 +62,17 @@ export const ProjectsComponent = styled.div`
 
     @media screen and (min-width: 767px) and (max-width: 1200px) {
         .container {
-            flex-wrap: wrap;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
             display: flex;
             text-align: center;
         }
         .row-item {
             padding-botton: 20px;
             font-size: 25px;
-            
+            padding-right: 0px;
+            padding-left: 0px;
         }
         .item {
             width: 75vw;

@@ -108,7 +108,7 @@ export const NameComponent = styled.div`
         webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
-        background-size: 260vw 130vh;
+        background-size: 260vw 160vh;
         display: flex;
         justify-content: center;
         .click {
@@ -190,6 +190,17 @@ export const SkillsComp = styled.div`
 }
     .lang {
         padding: 40px;
+    }
+    @media screen and (min-width: 767px) and (max-width: 1200px) {
+        background-image: none;
+        background-color: #696969;
+        img {
+            width: 100px;
+            height: 100px;
+        }
+        .lang {
+        padding: 20px;
+    }
     }
     @media screen and (max-width: 766px)  { 
         // background-position: center center;       
