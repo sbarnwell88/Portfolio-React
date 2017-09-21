@@ -12,7 +12,7 @@ export const NameComponent = styled.div`
     1px 1px 0 #000;
     background-image: url('https://i.imgur.com/NqeA7Uq.jpg'); 
     background-position: center center;
-    background-attachment: fixed;       
+    background-attachment: fixed;      
     webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -73,12 +73,13 @@ export const NameComponent = styled.div`
     }
     @media screen and (min-width: 767px) and (max-width: 1200px) {
         // background-position: center center;
-        background-position: absolute;
+        background-position: 50% 50%;
+        background-attachment: scroll;
         // background-attachment: fixed;       
-        // webkit-background-size: cover;
-        // -moz-background-size: cover;
-        // -o-background-size: cover;
-        // background-size: cover;
+        webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
         background-size: 240vw 155vh;
         display: flex;
         justify-content: center;
