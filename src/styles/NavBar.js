@@ -76,7 +76,7 @@ export const NameComponent = styled.div`
         // webkit-background-size: cover;
         // -moz-background-size: cover;
         // -o-background-size: cover;
-        background-size: 135vw 100vh;
+        background-size: 135vw 120vh;
         display: flex;
         justify-content: center;
         .name {

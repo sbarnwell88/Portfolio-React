@@ -64,8 +64,8 @@ export const ProjectsComponent = styled.div`
         .container {
             flex-direction: column;
             align-items: center;
-            justify-content: center;
             display: flex;
+            justify-content: center;
             text-align: center;
         }
         .row-item {
@@ -73,10 +73,12 @@ export const ProjectsComponent = styled.div`
             font-size: 25px;
             padding-right: 0px;
             padding-left: 0px;
+            display: flex;
+            justify-content: center;
         }
         .item {
             width: 60vw;
-            height: 60vw;
+            height: 50vw;
         }
         .text {
             padding: 60px;
@@ -96,7 +98,6 @@ export const ProjectsComponent = styled.div`
             font-size: 10px;
             padding-right: 0px;
             padding-left: 0px;
-
         }
         .item {
             width: 75vw;
