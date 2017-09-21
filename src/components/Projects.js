@@ -25,10 +25,10 @@ class Projects extends Component {
                 </IntroComponent>
                 <ProjectsComponent>
                       <div className="container">
-                            <div className="row-item"><a href="http://barnwell-hangman.bitballoon.com/">
-                                <div className="item" id="hangman"></div>
+                            <div className="row-item"><a href="https://board-af.herokuapp.com/">
+                                <div className="item" id="board"></div>
                                 </a>
-                                <div className="text">Classic hangman game that allows users to guess a word. Users have 7 tries to guess the correct word. The drawing of the hangman appears for every incorrect guess. I used Javascript and JQuery for this game.</div>
+                                <div className="text">BoardAF is an app that allows users to select different boardgames and save them as their favorites. Some of the technologies used include an external API and React on Rails.</div>
                             </div>
                             <div className="row-item"><a href="https://beer-cult.herokuapp.com/">
                                 <div className="item" id="beer"></div>

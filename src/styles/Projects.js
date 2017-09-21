@@ -32,8 +32,8 @@ export const ProjectsComponent = styled.div`
         box-shadow: 6px 6px 5px black;
         opacity: .6;
     }
-    #hangman {
-        background-image: url('https://i.imgur.com/NpYc2ge.png?2');
+    #board {
+        background-image: url('https://i.imgur.com/LnC9GBS.png');
         background-size: 100% 100%;
         background-repeat: no-repeat;
     }
