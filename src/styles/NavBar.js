@@ -73,7 +73,7 @@ export const NameComponent = styled.div`
     }
     @media screen and (min-width: 767px) and (max-width: 1200px) {
         // background-position: center center;
-        background-position: static;
+        background-position: absolute;
         background-attachment: fixed;       
         webkit-background-size: cover;
         -moz-background-size: cover;
