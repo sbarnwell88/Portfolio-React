@@ -72,9 +72,8 @@ export const ProjectsComponent = styled.div`
             
         }
         .item {
-            width: 450px;
-            height: 400px;
-            margin-left: 100px;
+            width: 75vw;
+            height: 75vw;
         }
         .text {
             padding: 60px;
