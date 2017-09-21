@@ -71,8 +71,7 @@ export const ProjectsComponent = styled.div`
         .row-item {
             padding-botton: 20px;
             font-size: 25px;
-            padding-right: 100px;
-            padding-left: 120px;
+            padding-left: 150px;
         }
         .item {
             width: 50vw;
