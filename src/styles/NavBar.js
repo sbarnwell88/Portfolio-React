@@ -72,10 +72,12 @@ export const NameComponent = styled.div`
         color: white;
     }
     @media screen and (min-width: 767px) and (max-width: 1200px) {
-        background-position: center center;       
+        background-position: center center;
+        background-attachment: fixed;       
         webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
+        background-size: cover;
         background-size: 240vw 155vh;
         display: flex;
         justify-content: center;
