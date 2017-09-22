@@ -5,7 +5,7 @@ class Skills extends Component {
     render() {
         return (
             <div>
-                <Arrow><a href="#portfolio"><i className="material-icons arrow">keyboard_arrow_down</i></a></Arrow>
+                <Arrow><a href="#skills"><i className="material-icons arrow">keyboard_arrow_down</i></a></Arrow>
                 <IntroComponent>
                 <div id="skills" className="know">- Skills -</div>
                 </IntroComponent>
