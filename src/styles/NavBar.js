@@ -34,6 +34,7 @@ export const NameComponent = styled.div`
         // color: grey;
         // text-shadow: 2px 2px black;
         color: black;
+        margin: 0 10px;
         text-shadow:
         -1px -1px 0 white,
         1px -1px 0 white,
@@ -55,7 +56,7 @@ export const NameComponent = styled.div`
         white-space: nowrap;
         top: 0;
         left: 0;
-        animation: move 5s;
+        animation: move 8s;
         animation-iteration-count: infinite;
         animation-delay: 1s;
     }
