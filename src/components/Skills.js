@@ -5,11 +5,12 @@ class Skills extends Component {
     render() {
         return (
             <div>
+                <SkillsComp>
                 <Arrow><a href="#skills"><i className="material-icons arrow">keyboard_arrow_down</i></a></Arrow>
                 <IntroComponent>
                 <div id="skills" className="know">- Skills -</div>
                 </IntroComponent>
-                <SkillsComp>
+                
                 <div className="languages">
                     <div className="lang"><img src="http://i.imgur.com/CVxBb6f.png" width="200" height="200" /></div>
                     <div className="lang"><img src="https://i.imgur.com/nN7j6IS.png" width="220" height="210" /></div>

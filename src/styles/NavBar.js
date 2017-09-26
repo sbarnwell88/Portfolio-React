@@ -195,6 +195,11 @@ export const SkillsComp = styled.div`
     .lang {
         padding: 40px;
     }
+    #skills {
+        opacity: 1;
+        color: black;
+        font-weight: bold;
+    }
     @media screen and (min-width: 767px) and (max-width: 1200px) {
         background-image: none;
         background-color: #696969;

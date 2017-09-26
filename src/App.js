@@ -19,8 +19,8 @@ class App extends Component {
         </NavBarComponent> 
           <Name />
           <Intro />
-          <Projects />
           <Skills />
+          <Projects />
           <Contact />
       </div>
     );
