@@ -14,7 +14,7 @@ class App extends Component {
           <div><a href="#home">Home</a></div>
           <div><a href="#about">About</a></div>
           <div><a href="#portfolio">Portfolio</a></div>
-          <div><a href="#skills">Skills</a></div>
+          <div><a href="#skills">Skills</a></div>           
           <div><a href="#contact">Contact</a></div>
         </NavBarComponent> 
           <Name />
