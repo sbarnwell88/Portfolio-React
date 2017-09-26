@@ -231,6 +231,19 @@ export const Description = styled.div`
         word-spacing: 6px;
         width:60%;
         margin: auto;
+        .img {
+            display: flex;
+            justify-content: center;
+            padding-bottom: 10px;
+            img {
+                width: 150px;
+                height: 150px;
+                // padding-bottom: 20px;
+                border: 1px solid white;
+                border-radius: 50%;
+                // border: 3px solid white;
+            }
+        }
         @media screen and (min-width: 767px) and (max-width: 1200px) {
             font-size: 25px;
             width:80%;

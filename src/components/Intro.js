@@ -12,6 +12,7 @@ class Intro extends Component {
             </IntroComponent>
             <Description>
             <div>
+                <div className="img"><img src="https://i.imgur.com/cNBaJ1f.jpg?2" /></div>
                 <p>I'm a full stack web developer based out of Atlanta, Ga. I am from Venezuela and lived in Rome, Italy for several years. I love exploring the world, experiencing different cultures, and learning different languages.</p>
                 <p>My international & business experience allows me to understand users from various cultures, backgrounds, and life experiences. I learned the tools of the trade at General Assembly's Web Development Immersive Program. What I learned there, combined with my unique international experience, allows me to collaborate with just about anyone and create attractive, user-focused designs and solutions.</p>
             </div>
