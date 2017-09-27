@@ -103,7 +103,10 @@ export const NameComponent = styled.div`
     }
     }
 
-    @media screen and (max-width: 766px)  { 
+    // @media screen and (max-width: 766px)  { 
+    @media only screen
+    and (min-device-width : 375px) 
+    and (max-device-width : 667px) {
         padding: 100px;
         // background-position: center center;       
         // webkit-background-size: cover;
