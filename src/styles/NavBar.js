@@ -103,10 +103,7 @@ export const NameComponent = styled.div`
     }
     }
 
-    // @media screen and (max-width: 766px)  { 
-    @media only screen
-    and (min-device-width : 375px) 
-    and (max-device-width : 667px) {
+    @media screen and (max-width: 766px) and (orientation : portrait) { 
         padding: 100px;
         // background-position: center center;       
         // webkit-background-size: cover;
@@ -114,7 +111,7 @@ export const NameComponent = styled.div`
         // -o-background-size: cover;
         background-position: 50% 50%;
         background-attachment: scroll;
-        background-size: 190vw 110vh;
+        background-size: 200vw 120vh;
         // background-size: 260vw 150vh;
         display: flex;
         justify-content: center;
@@ -146,6 +143,12 @@ export const NameComponent = styled.div`
         80% { top: -115px; }
     }
     }
+@media screen and (max-width: 766px) and (orientation : landscape) {
+    padding: 50px;
+    background-position: 50% 50%;
+    background-attachment: scroll;
+    background-size: 190vw 110vh;
+}
 
 `
 
