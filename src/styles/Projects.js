@@ -83,6 +83,18 @@ export const ProjectsComponent = styled.div`
         }
     }
 
+    @media screen and (min-width: 767px) and (max-width: 1200px) and (orientation : landscape) {
+        .row-item {
+            padding-botton: 20px;
+            font-size: 25px;
+            padding-left: 190px;
+        }
+        .text {
+            // padding: 60px;
+            padding-right: 110px;
+        }
+    }
+
     @media screen and (max-width: 766px) {
         .container {
             flex-direction: column;
