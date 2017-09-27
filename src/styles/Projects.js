@@ -72,8 +72,6 @@ export const ProjectsComponent = styled.div`
             padding-botton: 20px;
             font-size: 25px;
             padding-left: 150px;
-            // padding-right: 0px;
-            // padding-left: 0px;
         }
         .item {
             width: 50vw;
@@ -105,6 +103,28 @@ export const ProjectsComponent = styled.div`
         }
         .text {
             padding: 10px;
+        }
+    }
+    @media screen and (max-width: 766px) and (orientation : landscape) {
+        .container {
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            text-align: center;
+        }
+        .row-item {
+            padding-botton: 20px;
+            font-size: 15px;
+            // padding-right: 0px;
+            padding-left: 130px;
+        }
+        .item {
+            width: 50vw;
+            height: 50vw;
+        }
+        .text {
+            padding-right: 130px;
         }
     }
 

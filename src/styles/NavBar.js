@@ -120,9 +120,9 @@ export const NameComponent = styled.div`
             text-align: center;
         }
         .sb {
-        display: flex;
-        flex-wrap: wrap;
-        font-size: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            font-size: 20px;
         }
         .title {
             font-size: 20px;
@@ -144,10 +144,23 @@ export const NameComponent = styled.div`
     }
     }
 @media screen and (max-width: 766px) and (orientation : landscape) {
-    padding: 50px;
+    padding: 60px;
     background-position: 50% 50%;
     background-attachment: scroll;
-    background-size: 190vw 110vh;
+    background-size: 110vw 130vh;
+        .click {
+            font-size: 18px;
+            text-align: center;
+        }
+        .name {
+            font-size: 50px;
+            text-align: center;
+        }
+        .sb {
+            display: flex;
+            flex-wrap: wrap;
+            font-size: 25px;
+        }
 }
 
 `
