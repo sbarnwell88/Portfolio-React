@@ -104,6 +104,7 @@ export const NameComponent = styled.div`
     }
 
     @media screen and (max-width: 766px)  { 
+        padding: 130px;
         // background-position: center center;       
         // webkit-background-size: cover;
         // -moz-background-size: cover;
@@ -191,6 +192,7 @@ export const SkillsComp = styled.div`
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+        padding-bottom: 20px;
 }
     .lang {
         padding: 40px;
