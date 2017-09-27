@@ -104,14 +104,14 @@ export const NameComponent = styled.div`
     }
 
     @media screen and (max-width: 766px)  { 
-        padding: 130px;
+        padding: 100px;
         // background-position: center center;       
         // webkit-background-size: cover;
         // -moz-background-size: cover;
         // -o-background-size: cover;
         background-position: 50% 50%;
         background-attachment: scroll;
-        background-size: 180vw 100vh;
+        background-size: 190vw 110vh;
         // background-size: 260vw 150vh;
         display: flex;
         justify-content: center;
